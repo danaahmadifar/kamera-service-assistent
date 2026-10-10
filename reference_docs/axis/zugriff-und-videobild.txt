@@ -1,0 +1,25 @@
+AXIS M2035-LE: Zugriff und Videobild
+Eigene deutsche Zusammenfassung ausgewählter Handbuchstellen, kein Originaltext.
+Quelle: AXIS M20 Bullet Camera Series, User manual
+Dokumentkennung: T10175189; Ausgabe: 2026-07 (M25.2)
+URL: https://help.axis.com/download/um_m2035_le_t10175189_2412.pdf
+Geprüft: 2026-10-10. Seitenangaben beziehen sich auf gedruckte Seiten.
+Geltungsbereich: Handbuch für M2035-LE und M2036-LE; hier ausgewählte Hinweise für den Servicefall. Keine Gerätebefunde.
+
+Abschnitt 1: Gerätezugriff
+Fundstelle: Seite 25, Problems accessing the device.
+Bei aktivem HTTPS ist das passende Protokoll für die Anmeldung zu verwenden.
+Eine per DHCP vergebene IP-Adresse kann wechseln. Axis nennt IP Utility oder
+Device Manager zum Wiederfinden; Modell oder Seriennummer helfen bei der Zuordnung.
+
+Abschnitt 2: Fehlendes Multicast-H.264-Bild
+Fundstelle: Seite 26, No multicast H.264 displayed in the client.
+Bei diesem konkreten Übertragungsmodus soll mit der Netzwerkadministration
+geprüft werden, ob die Multicast-Adressen gültig sind und eine Firewall die
+Anzeige verhindert.
+
+Abschnitt 3: Zusätzliche Videostreams
+Fundstelle: Seiten 26–27, Problems retrieving additional video streams.
+Das Handbuch beschreibt Fehler beim Anfordern eines fünften unterschiedlich
+konfigurierten Streams. Mehr als vier gleichzeitige Streams sind möglich,
+wenn zusätzliche Streams dieselbe Konfiguration wie einer der ersten vier haben.

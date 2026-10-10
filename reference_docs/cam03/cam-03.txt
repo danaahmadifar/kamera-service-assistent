@@ -1,0 +1,21 @@
+CAM-03-Datenblatt
+Version: 1.0
+
+Abschnitt 1: Geltungsbereich
+Dieses Dokument und alle Grenzwerte sind frei erfundene Beispieldaten für
+das Lernprojekt. Sie gelten ausschließlich für die fiktive Kamera CAM-03
+vom fiktiven Modell Lernkamera K-100, nicht für reale Kameras.
+Das Dokument enthält keine aktuellen Messwerte.
+
+Abschnitt 2: Temperaturbereiche
+Zulässige Umgebungstemperatur im Betrieb: -10 bis einschließlich 50 °C.
+Zulässige Temperatur des internen Sensors board_temperature im Betrieb:
+0 bis einschließlich 80 °C.
+Ein Wert über 80 °C am internen Sensor liegt außerhalb dieses Bereichs.
+Umgebungstemperatur und interne Sensortemperatur dürfen nicht gleichgesetzt werden.
+
+Abschnitt 3: Angaben für die Bewertung
+Benötigt werden Kamera-ID, Sensorname beziehungsweise Messort, Temperatur
+und Zeitpunkt der Messung. Falls diese Angaben fehlen, sind sie zu erfragen.
+Ein vom Benutzer genannter Wert ist eine Benutzerangabe und kein vom
+Assistenten selbst überprüfter Live-Messwert.

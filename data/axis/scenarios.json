@@ -1,0 +1,17 @@
+{
+  "simulated": true,
+  "scenarios": {
+    "unreachable": {
+      "device_info": { "outcome": "timeout" },
+      "video": { "observation": "not_checked", "transport": null }
+    },
+    "access_denied": {
+      "device_info": { "outcome": "access_denied" },
+      "video": { "observation": "not_checked", "transport": null }
+    },
+    "no_video": {
+      "device_info": { "outcome": "success" },
+      "video": { "observation": "reported_missing", "transport": null }
+    }
+  }
+}

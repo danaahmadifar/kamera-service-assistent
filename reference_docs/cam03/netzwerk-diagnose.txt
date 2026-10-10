@@ -1,0 +1,22 @@
+CAM-03: Diagnose einer unterbrochenen Bildübertragung
+Version: 1.0
+
+Abschnitt 1: Geltungsbereich
+Dieses Dokument enthält frei erfundene Prüfschritte für das Lernprojekt
+und die fiktive Kamera CAM-03. Es führt selbst keine Netzwerkabfragen aus
+und enthält keine aktuellen Erreichbarkeits- oder Verbindungsdaten.
+
+Abschnitt 2: Angaben bei fehlender Bildübertragung
+Erfasse Kamera-ID, Zeitpunkt des Ausfalls und genaue Fehlermeldung.
+Frage, ob nur CAM-03 oder mehrere Kameras betroffen sind.
+Unterscheide eine fehlende Erreichbarkeit der Kamera von einer erreichbaren
+Kamera, deren Videostream nicht verfügbar ist.
+Die Erreichbarkeit muss durch eine tatsächliche Prüfung belegt werden;
+sie darf nicht aus einer Temperaturmessung abgeleitet werden.
+
+Abschnitt 3: Prüfplan im simulierten Szenario
+Prüfe zuerst, ob die Störung eine einzelne Kamera oder mehrere Geräte betrifft.
+Lasse danach Stromversorgung und Netzwerkverbindung im Szenario überprüfen
+und protokolliere die Ergebnisse getrennt.
+Ist die Kamera erreichbar, prüfe als nächsten Punkt die gemeldete Stream-Fehlermeldung.
+Ein möglicher Netzwerkfehler ist bis zur Prüfung eine Hypothese, keine Diagnose.

@@ -1,0 +1,76 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #1f2937;
+  background: #f3f4f6;
+  line-height: 1.6;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 48rem;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 0.75rem;
+}
+
+h1 {
+  line-height: 1.2;
+}
+
+form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+input,
+select,
+button {
+  font: inherit;
+  padding: 0.65rem;
+  border: 1px solid #6b7280;
+  border-radius: 0.35rem;
+}
+
+button {
+  justify-self: start;
+  cursor: pointer;
+  background: #1d4ed8;
+  color: white;
+}
+
+input:focus-visible,
+select:focus-visible,
+button:focus-visible {
+  outline: 3px solid #1d4ed8;
+  outline-offset: 3px;
+}
+
+[role='alert'] {
+  color: #b91c1c;
+}
+
+section p {
+  overflow-wrap: anywhere;
+}
+
+.answer {
+  white-space: pre-wrap;
+}
+
+button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+dt {
+  font-weight: 600;
+}
+
+dd {
+  margin: 0 0 0.75rem;
+  overflow-wrap: anywhere;
+}

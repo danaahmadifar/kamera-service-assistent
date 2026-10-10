@@ -1,0 +1,14 @@
+{
+  "simulated": true,
+  "response": {
+    "apiVersion": "1.0",
+    "context": "axis-demo-001",
+    "data": {
+      "propertyList": {
+        "Brand": "AXIS",
+        "ProdNbr": "M2035-LE",
+        "Version": "SIMULATED-OS"
+      }
+    }
+  }
+}

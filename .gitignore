@@ -1,0 +1,30 @@
+# Virtuelle Python-Umgebung
+.venv/
+
+# Python-Zwischendateien
+__pycache__/
+*.py[cod]
+
+# Lokale Konfiguration und Zugangsdaten
+.env
+.env.*
+!.env.example
+*.local.json
+*.local.toml
+*.local.yaml
+*.local.yml
+
+# JavaScript-Pakete, Build-Ausgabe und lokaler npm-Cache
+node_modules/
+frontend/dist/
+frontend/.npm-cache/
+
+# Persönliche Unterlagen und lokale Hilfsdateien
+/private/
+
+# Editor- und Betriebssystemdateien
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

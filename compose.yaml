@@ -1,0 +1,21 @@
+name: kamera-service-lernprojekt
+
+services:
+  api:
+    build: .
+    environment:
+      LM_STUDIO_BASE_URL: http://host.docker.internal:1234/v1
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=2)"]
+      interval: 5s
+      timeout: 3s
+      retries: 6
+      start_period: 5s
+
+  web:
+    build: ./frontend
+    ports:
+      - "127.0.0.1:8090:80"
+    depends_on:
+      api:
+        condition: service_healthy

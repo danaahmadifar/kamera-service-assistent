@@ -1,0 +1,20 @@
+CAM-03: Wartung der Optik
+Version: 1.0
+
+Abschnitt 1: Geltungsbereich
+Dieses Dokument enthält frei erfundene Prüfschritte für das Lernprojekt
+und die fiktive Kamera CAM-03 vom Modell Lernkamera K-100.
+Es ist keine Wartungsanleitung für reale Geräte und enthält keine Live-Befunde.
+
+Abschnitt 2: Sichtprüfung bei unscharfem Bild
+Dokumentiere zunächst Kamera-ID, Zeitpunkt und Art der Bildstörung.
+Prüfe im simulierten Wartungsszenario die Sichtscheibe auf sichtbaren Schmutz,
+Fettspuren und Kondenswasser. Diese Beobachtungen sind mögliche Hinweise,
+keine bereits festgestellte Ursache.
+Vergleiche ein Beispielbild bei Tageslicht mit einem bei Nachtbetrieb.
+Halte fest, ob die Unschärfe ständig oder nur unter bestimmten Bedingungen auftritt.
+Ohne Sichtbefund darf keine Verschmutzung als gesicherte Ursache behauptet werden.
+
+Abschnitt 3: Abgrenzung zur Temperaturprüfung
+Eine unauffällige interne Sensortemperatur bestätigt nicht die Bildqualität.
+Für Temperaturbereiche verwende CAM-03-Datenblatt, cam-03.txt, Abschnitt 2.
