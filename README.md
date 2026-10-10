@@ -24,6 +24,7 @@ Der Axis-Proof-of-Concept behandelt den Fall **„Kein Videobild“ bei einer AX
 | **unittest** | Automatisierte Python-Tests ohne laufendes Sprachmodell |
 
 Getestet mit Python 3.14.7 und Node.js 24.21.0. Direkte Python-Paketversionen stehen in `requirements.txt`; die Frontend-Versionen sind zusätzlich im `package-lock.json` festgehalten.
+Es wurde das Model Gemma 4 12B QAT benutzt.
 
 ---
 
