@@ -4,9 +4,14 @@ Ein Projekt für die dokumentengestützte Unterstützung bei Kamerastörungen. D
 
 Der Axis-Proof-of-Concept behandelt den Fall **„Kein Videobild“ bei einer AXIS M2035-LE** anhand offizieller Handbuchnotizen und drei simulierten Servicefällen. Es ist keine reale Kamera angeschlossen.
 
+# Benutzeroberfläche im Browser
+
+<img width="893" height="1099" alt="grafik" src="https://github.com/user-attachments/assets/247684d4-547d-4f81-aef5-fb899cf33f73" />
+
+
 ---
 
-## Verwendete Software
+# Verwendete Software
 
 | Komponente | Aufgabe |
 | :--- | :--- |
@@ -176,4 +181,4 @@ Die Modulzuordnung und ausführlichen Abläufe stehen in [ARCHITECTURE.md](docum
 4. **Suche und Validierung:** Ähnlichkeit beweist keine Relevanz. Quellenpaare beweisen keinen inhaltlichen Beleg. Der Axis-Vorschlag ist freier Text ohne JSON-Planprüfung.
 5. **Betrieb:** Keine echten Wartungsaktionen, kein dauerhaft gespeicherter Gesprächsverlauf, kein Retrieval-Cache und keine Vektordatenbank. CAM-03-Grenzwerte werden manuell gepflegt.
 
-Das Projekt wurde als begleitetes Lern- und Bewerbungsprojekt entwickelt und demonstriert die Verbindung von lokaler KI, überprüfbarer Python-Verarbeitung und einer Browseroberfläche.
+Das Projekt wurde als Lern- und Bewerbungsprojekt entwickelt und demonstriert die Verbindung von lokaler KI, überprüfbarer Python-Verarbeitung und einer Browseroberfläche.
